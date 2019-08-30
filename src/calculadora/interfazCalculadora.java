@@ -19,7 +19,7 @@ public class interfazCalculadora extends javax.swing.JFrame {
 
     /**
      * Creates new form interfazCalculadora
-     * jajajajaja
+     * 
      */
     private int x;
     private int y;
