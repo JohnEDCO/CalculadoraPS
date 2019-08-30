@@ -58,7 +58,7 @@ public class interfazCalculadora extends javax.swing.JFrame {
         jBElevar = new javax.swing.JButton();
         jBFraccionar = new javax.swing.JButton();
         jBCe = new javax.swing.JButton();
-        jBc = new javax.swing.JButton();
+        jBC = new javax.swing.JButton();
         jBBorrar = new javax.swing.JButton();
         jBDivision = new javax.swing.JButton();
         jB7 = new javax.swing.JButton();
@@ -237,30 +237,30 @@ public class interfazCalculadora extends javax.swing.JFrame {
         });
         jPanel2.add(jBCe);
 
-        jBc.setBackground(new java.awt.Color(25, 24, 24));
-        jBc.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jBc.setForeground(new java.awt.Color(255, 255, 255));
-        jBc.setText("C");
-        jBc.setContentAreaFilled(false);
-        jBc.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jBc.setFocusPainted(false);
-        jBc.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jBc.setOpaque(true);
-        jBc.addMouseListener(new java.awt.event.MouseAdapter() {
+        jBC.setBackground(new java.awt.Color(25, 24, 24));
+        jBC.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jBC.setForeground(new java.awt.Color(255, 255, 255));
+        jBC.setText("C");
+        jBC.setContentAreaFilled(false);
+        jBC.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jBC.setFocusPainted(false);
+        jBC.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jBC.setOpaque(true);
+        jBC.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jBcMouseEntered(evt);
+                jBCMouseEntered(evt);
             }
             
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jBcMouseExited(evt);
+                jBCMouseExited(evt);
             }
         });
-        jBc.addActionListener(new java.awt.event.ActionListener() {
+        jBC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBcActionPerformed(evt);
+                jBCActionPerformed(evt);
             }
         });
-        jPanel2.add(jBc);
+        jPanel2.add(jBC);
 
         jBBorrar.setBackground(new java.awt.Color(25, 24, 24));
         jBBorrar.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
@@ -1213,39 +1213,39 @@ public class interfazCalculadora extends javax.swing.JFrame {
         jBCe.setBackground(new Color(25, 24, 24));
     } //GEN-LAST:event_jBCeMouseExited
 
-    private void jBcMouseEntered(java.awt.event.MouseEvent evt) { //GEN-FIRST:event_jBCMouseEntered
-        jBc.setBackground(new Color(51, 51, 51));
-    } //GEN-LAST:event_jBCMouseEntered
+    private void jBCMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBCMouseEntered
+        jBC.setBackground(new Color(51, 51, 51));
+    }//GEN-LAST:event_jBCMouseEntered
 
-    private void jBcMouseExited(java.awt.event.MouseEvent evt) { //GEN-FIRST:event_jBCMouseExited
-        jBc.setBackground(new Color(25, 24, 24));
-    } //GEN-LAST:event_jBCMouseExited
+    private void jBCMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBCMouseExited
+        jBC.setBackground(new Color(25, 24, 24));
+    }//GEN-LAST:event_jBCMouseExited
 
-    private void jBBorrarMouseEntered(java.awt.event.MouseEvent evt) { //GEN-FIRST:event_jBBorrarMouseEntered
+    private void jBBorrarMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBBorrarMouseEntered
         jBBorrar.setBackground(new Color(51, 51, 51));
-    } //GEN-LAST:event_jBBorrarMouseEntered
+    }//GEN-LAST:event_jBBorrarMouseEntered
 
-    private void jBBorrarMouseExited(java.awt.event.MouseEvent evt) { //GEN-FIRST:event_jBBorrarMouseExited
+    private void jBBorrarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBBorrarMouseExited
         jBBorrar.setBackground(new Color(25, 24, 24));
-    } //GEN-LAST:event_jBBorrarMouseExited
+    }//GEN-LAST:event_jBBorrarMouseExited
 
-    private void jBComaMouseEntered(java.awt.event.MouseEvent evt) { //GEN-FIRST:event_jBComaMouseEntered
+    private void jBComaMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBComaMouseEntered
         jBComa.setBackground(new Color(51, 51, 51));
-    } //GEN-LAST:event_jBComaMouseEntered
+    }//GEN-LAST:event_jBComaMouseEntered
 
-    private void jBComaMouseExited(java.awt.event.MouseEvent evt) { //GEN-FIRST:event_jBComaMouseExited
+    private void jBComaMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBComaMouseExited
         jBComa.setBackground(new Color(25, 24, 24));
-    } //GEN-LAST:event_jBComaMouseExited
+    }//GEN-LAST:event_jBComaMouseExited
 
-    private void jBNegacionMouseEntered(java.awt.event.MouseEvent evt) { //GEN-FIRST:event_jBNegacionMouseEntered
+    private void jBNegacionMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBNegacionMouseEntered
         jBNegacion.setBackground(new Color(51, 51, 51));
-    } //GEN-LAST:event_jBNegacionMouseEntered
+    }//GEN-LAST:event_jBNegacionMouseEntered
 
-    private void jBNegacionMouseExited(java.awt.event.MouseEvent evt) { //GEN-FIRST:event_jBNegacionMouseExited
+    private void jBNegacionMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBNegacionMouseExited
         jBNegacion.setBackground(new Color(25, 24, 24));
-    } //GEN-LAST:event_jBNegacionMouseExited
+    }//GEN-LAST:event_jBNegacionMouseExited
 
-    private void jBmMasActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBmMasActionPerformed
+    private void jBmMasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBmMasActionPerformed
 
         jBmc.setEnabled(true);
         jBMr.setEnabled(true);
@@ -1253,30 +1253,30 @@ public class interfazCalculadora extends javax.swing.JFrame {
         jBMr.setBackground(new Color(25, 24, 24));
         controlMemoria = 1;
         dato.operacionMemoria(1, jLNumero.getText());
-    } //GEN-LAST:event_jBmMasActionPerformed
+    }//GEN-LAST:event_jBmMasActionPerformed
 
-    private void jBcActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBCActionPerformed
+    private void jBCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBCActionPerformed
         ultimoSigno = "";
         reescribible = 1;
         dato.setNumero(0);
         jLNumero.setText("0");
         jLOperaciones.setText("");
-    } //GEN-LAST:event_jBCActionPerformed
+    }//GEN-LAST:event_jBCActionPerformed
 
-    private void jBMrActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBMrActionPerformed
+    private void jBMrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBMrActionPerformed
         jLNumero.setText(String.valueOf(dato.getValorMemoria()));
         reescribible = 1;
-    } //GEN-LAST:event_jBMrActionPerformed
+    }//GEN-LAST:event_jBMrActionPerformed
 
-    private void jBmMouseEntered(java.awt.event.MouseEvent evt) { //GEN-FIRST:event_jBmMouseEntered
+    private void jBmMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBmMouseEntered
         jBm.setBackground(new Color(51, 51, 51));
-    } //GEN-LAST:event_jBmMouseEntered
+    }//GEN-LAST:event_jBmMouseEntered
 
-    private void jBmMouseExited(java.awt.event.MouseEvent evt) { //GEN-FIRST:event_jBmMouseExited
+    private void jBmMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBmMouseExited
         jBm.setBackground(new Color(25, 24, 24));
-    } //GEN-LAST:event_jBmMouseExited
+    }//GEN-LAST:event_jBmMouseExited
 
-    private void jBmActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBmActionPerformed
+    private void jBmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBmActionPerformed
         jBmc.setEnabled(true);
         jBMr.setEnabled(true);
         jBmc.setBackground(new Color(25, 24, 24));
@@ -1284,9 +1284,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
         controlMemoria = 1;
         reescribible = 1;
         dato.setValorMemoria(jLNumero.getText());
-    } //GEN-LAST:event_jBmActionPerformed
+    }//GEN-LAST:event_jBmActionPerformed
 
-    private void jBmMenosActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBmMenosActionPerformed
+    private void jBmMenosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBmMenosActionPerformed
 
         jBmc.setEnabled(true);
         jBMr.setEnabled(true);
@@ -1294,9 +1294,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
         jBMr.setBackground(new Color(25, 24, 24));
         controlMemoria = 1;
         dato.operacionMemoria(2, jLNumero.getText());
-    } //GEN-LAST:event_jBmMenosActionPerformed
+    }//GEN-LAST:event_jBmMenosActionPerformed
 
-    private void jBmcActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBmcActionPerformed
+    private void jBmcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBmcActionPerformed
 
         jLNumero.setText("0");
 
@@ -1305,9 +1305,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
         jBmc.setBackground(new Color(0, 0, 0));
         jBMr.setBackground(new Color(0, 0, 0));
         controlMemoria = 0;
-    } //GEN-LAST:event_jBmcActionPerformed
+    }//GEN-LAST:event_jBmcActionPerformed
 
-    private void jBModuloActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBModuloActionPerformed
+    private void jBModuloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBModuloActionPerformed
 
         reescribible = 1;
 
@@ -1326,9 +1326,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
         }
 
         ultimoSigno = "%";
-    } //GEN-LAST:event_jBModuloActionPerformed
+    }//GEN-LAST:event_jBModuloActionPerformed
 
-    private void jBSumaActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBSumaActionPerformed
+    private void jBSumaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBSumaActionPerformed
 
         reescribible = 1;
         System.out.println("dasdasd " + jLOperaciones.getText());
@@ -1353,7 +1353,7 @@ public class interfazCalculadora extends javax.swing.JFrame {
             System.out.println("datico" + dato.getNumero());
             System.out.println("ultimo signo" + ultimoSigno);
             if (operacionNobasica == 1) {
-                jLOperaciones.setText(jLOperaciones.getText() + jLNumero.getText() + " +");
+                jLOperaciones.setText(jLOperaciones.getText() + jLNumero.getText()+" +");
             jLNumero.setText(dato.operaciones(Double.parseDouble(jLNumero.getText()),ultimoSigno));              
                 System.out.println("yyyyy2");
                 operacionNobasica = 0;
@@ -1369,9 +1369,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
 
         ultimoSigno = "+";
 
-    } //GEN-LAST:event_jBSumaActionPerformed
+    }//GEN-LAST:event_jBSumaActionPerformed
 
-    private void jB9ActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jB9ActionPerformed
+    private void jB9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jB9ActionPerformed
 
         if (reescribible == 1) {
             reescribible = 0;
@@ -1380,9 +1380,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
             jLNumero.setText(jLNumero.getText() + "9");
         }
 
-    } //GEN-LAST:event_jB9ActionPerformed
+    }//GEN-LAST:event_jB9ActionPerformed
 
-    private void jB5ActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jB5ActionPerformed
+    private void jB5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jB5ActionPerformed
 
         if (reescribible == 1) {
             reescribible = 0;
@@ -1391,9 +1391,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
             jLNumero.setText(jLNumero.getText() + "5");
         }
 
-    } //GEN-LAST:event_jB5ActionPerformed
+    }//GEN-LAST:event_jB5ActionPerformed
 
-    private void jB6ActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jB6ActionPerformed
+    private void jB6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jB6ActionPerformed
 
         if (reescribible == 1) {
             reescribible = 0;
@@ -1402,16 +1402,16 @@ public class interfazCalculadora extends javax.swing.JFrame {
             jLNumero.setText(jLNumero.getText() + "6");
         }
 
-    } //GEN-LAST:event_jB6ActionPerformed
+    }//GEN-LAST:event_jB6ActionPerformed
 
-    private void jBCeActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBCeActionPerformed
+    private void jBCeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBCeActionPerformed
         jLNumero.setText("0");
         reescribible = 1;
         ultimoSigno = "";
 //        dato.setResultado(0);
-    } //GEN-LAST:event_jBCeActionPerformed
+    }//GEN-LAST:event_jBCeActionPerformed
 
-    private void jB1ActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jB1ActionPerformed
+    private void jB1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jB1ActionPerformed
 
         if (reescribible == 1) {
             reescribible = 0;
@@ -1420,9 +1420,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
         } else {
             jLNumero.setText(jLNumero.getText() + "1");
         }
-    } //GEN-LAST:event_jB1ActionPerformed
+    }//GEN-LAST:event_jB1ActionPerformed
 
-    private void jB3ActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jB3ActionPerformed
+    private void jB3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jB3ActionPerformed
 
         if (reescribible == 1) {
             reescribible = 0;
@@ -1430,9 +1430,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
         } else {
             jLNumero.setText(jLNumero.getText() + "3");
         }
-    } //GEN-LAST:event_jB3ActionPerformed
+    }//GEN-LAST:event_jB3ActionPerformed
 
-    private void jB0ActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jB0ActionPerformed
+    private void jB0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jB0ActionPerformed
 
         if (reescribible == 1) {
             reescribible = 0;
@@ -1440,9 +1440,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
         } else {
             jLNumero.setText(jLNumero.getText() + "0");
         }
-    } //GEN-LAST:event_jB0ActionPerformed
+    }//GEN-LAST:event_jB0ActionPerformed
 
-    private void jBMultiplicacionActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBMultiplicacionActionPerformed
+    private void jBMultiplicacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBMultiplicacionActionPerformed
         reescribible = 1;
 
         if (ultimoSigno.equals("")) {
@@ -1460,9 +1460,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
         }
 
         ultimoSigno = "*";
-    } //GEN-LAST:event_jBMultiplicacionActionPerformed
+    }//GEN-LAST:event_jBMultiplicacionActionPerformed
 
-    private void jBDivisionActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBDivisionActionPerformed
+    private void jBDivisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBDivisionActionPerformed
         reescribible = 1;
 
         if (ultimoSigno.equals("")) {
@@ -1480,9 +1480,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
         }
 
         ultimoSigno = "/";
-    } //GEN-LAST:event_jBDivisionActionPerformed
+    }//GEN-LAST:event_jBDivisionActionPerformed
 
-    private void jBComaActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBComaActionPerformed
+    private void jBComaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBComaActionPerformed
         String cadena;
 
         cadena = jLNumero.getText(); // me guarda todo lo que tenga en la pantalla
@@ -1497,9 +1497,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
                 jLNumero.setText(jLNumero.getText() + "."); // le pone un punto 
             }
         }
-    } //GEN-LAST:event_jBComaActionPerformed
+    }//GEN-LAST:event_jBComaActionPerformed
 
-    private void jBRaizActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBRaizActionPerformed
+    private void jBRaizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBRaizActionPerformed
         reescribible = 1;
         operacionNobasica = 1;
 
@@ -1522,9 +1522,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
         }
 
 //        ultimoSigno = "√";
-    } //GEN-LAST:event_jBRaizActionPerformed
+    }//GEN-LAST:event_jBRaizActionPerformed
 
-    private void jBElevarActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBElevarActionPerformed
+    private void jBElevarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBElevarActionPerformed
 
         reescribible = 1;
         operacionNobasica = 1;
@@ -1549,9 +1549,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
         }
 
 //        ultimoSigno="^";
-    } //GEN-LAST:event_jBElevarActionPerformed
+    }//GEN-LAST:event_jBElevarActionPerformed
 
-    private void jBBorrarActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBBorrarActionPerformed
+    private void jBBorrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBBorrarActionPerformed
 
         String cadena;
         cadena = jLNumero.getText();
@@ -1562,9 +1562,9 @@ public class interfazCalculadora extends javax.swing.JFrame {
         } else {
             jLNumero.setText("0");
         }
-    } //GEN-LAST:event_jBBorrarActionPerformed
+    }//GEN-LAST:event_jBBorrarActionPerformed
 
-    private void jBIgualActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jBIgualActionPerformed
+    private void jBIgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBIgualActionPerformed
 
         if (!ultimoSigno.equals("")) {
             jLNumero.setText(dato.operaciones(Double.parseDouble(jLNumero.getText()), ultimoSigno));
@@ -1614,7 +1614,6 @@ public class interfazCalculadora extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-    	
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -1662,7 +1661,7 @@ public class interfazCalculadora extends javax.swing.JFrame {
     private javax.swing.JButton jB8;
     private javax.swing.JButton jB9;
     private javax.swing.JButton jBBorrar;
-    private javax.swing.JButton jBc;
+    private javax.swing.JButton jBC;
     private javax.swing.JButton jBCe;
     private javax.swing.JButton jBCerrar;
     private javax.swing.JButton jBComa;
